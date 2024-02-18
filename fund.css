@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+nav{
+    background: rgb(84, 109, 84);
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+
+#connectButton{
+    position: absolute;
+    left:5%;
+    color:white;
+    background: rgb(84, 109, 84);
+    padding:1px;
+    border: 0px;
+    font-size: larger;
+}
+
+#connectButton:hover{
+    color:black
+}
+
+button{
+    left:5%;
+    margin: 5px;
+    color:white;
+    background: rgb(56, 73, 56);
+    padding: 10px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+input{
+    width: 200px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+label{
+
+    font-size: xx-large;
+  
+}
+
+#balance{
+    font-size: xx-large;
+    
+}
+
+#balance-div{
+    font-size: xx-large;
+    margin-top: 50px;
+    padding: 10px;
+}

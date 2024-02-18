@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fund Me App</title>
+    <link rel="stylesheet" href="fund.css">
+  </head>
+
+  <body>
+   <div class="top-div" >
+    <nav>
+      <h1>
+        FUND DAPP
+      </h1>
+      <button id="connectButton">Connect</button>
+    </nav>
+    <div class="main" >
+      <div style=" margin-top: 50px;display: flex; flex-direction: row; justify-content: center; gap: 10px;" >
+        <label for="ethAmount">ETH Amount</label>
+      <input id="ethAmount" placeholder="0.1" type="number"/>
+      <button type="button" id="fundButton" > Fund </button>
+      
+      </div>
+
+      <div class="button-div" style=" margin-top: 50px; display: flex; flex-direction: row; justify-content: center; gap: 10px;" >
+        <button id="balanceButton">getBalance</button>
+        <button id="withdrawButton">Withdraw</button>
+        <!-- <button id="showfunders" >show funders</button> -->
+        
+      </div>
+        <div id="balance-div" >
+        <h4 style="display: inline;" >Balance</h4> <p style="display: inline;" id="balance" >0</p>
+      </div>
+    </div>
+   </div>
+  </body>
+
+  <script src="./fund.js" type="module"></script>
+</html>
